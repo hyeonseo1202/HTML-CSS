@@ -1,0 +1,71 @@
+.a-button {
+    background-color: rgb(20, 40, 192);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 10px; /* 오른쪽 여분 여백 */
+    margin-left: 30px;
+    padding-top: 20px; /* 패딩은 마진의 바깥쪽 부분 */
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: all 3s ease-in; 
+    /* 
+    transition : 3초동안 천천히 변경됨
+    ease-in : 가속, 느린 시작으로 빠른 끝
+    .*/
+}
+
+.a-button:hover { 
+    /* hover : 이 스타일은 마우스를 a button요소에 가져갈 때만 적용된다.  */
+    opacity: 0.7; /* 투명도! (1이 다보이는거고 0이 안보이는 것) */
+    background-color: black;
+}
+
+.a-button:active {
+    /* active : 이 스타일은 버튼을 클릭할 때만 적용된다.  */
+    opacity: 0.3;
+}
+
+.b-button {
+    background-color: white;
+    border-color: rgb(212, 6, 64);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6,95,212);
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: background-color 3s, color 0.15s;
+}
+
+.b-button:hover {
+    background-color: rgb(6,95,212);
+    color: white;
+}
+
+.b-button:active {
+    opacity: 0.7;
+}
+
+.c-button {
+    background-color: rgb(25,69, 98);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: all 1s ease-out;
+}
+
+.c-button:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
+}
